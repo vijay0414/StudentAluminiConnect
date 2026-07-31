@@ -39,9 +39,6 @@ A full-stack college social networking platform where students, alumni, staff, a
 | Axios | ^1.13.6 |
 | Socket.IO Client | ^4.8.3 |
 | Vite | ^8.0.1 |
-| react-toastify | ^11.0.5 |
-| react-icons | ^5.6.0 |
-| date-fns | ^4.1.0 |
 
 ---
 

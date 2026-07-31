@@ -1,0 +1,67 @@
+# ===========================
+# Environment & Secrets
+# ===========================
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# ===========================
+# Build Output
+# ===========================
+frontend/dist/
+frontend/build/
+
+# ===========================
+# Uploads (user-generated files)
+# ===========================
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ===========================
+# Logs
+# ===========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===========================
+# Vite / Frontend
+# ===========================
+frontend/.vite/
+frontend/coverage/
+
+# ===========================
+# Misc
+# ===========================
+*.tgz
+*.zip
+.cache/
